@@ -45,27 +45,42 @@ main {
 
 main > .intro {
 	font-family: 'Reem Kufi', sans-serif;
-	font-size: 3.75em;
+	font-size: 2.5em;
+	font-weight: 600;
+}
+
+mark {
+	background-color: #fff;
+}
+
+main > .introabove {
+	font-family: 'Reem Kufi', sans-serif;
+	font-size: 3em;
 	font-weight: 600;
 }
 
 main > .tagline {
 	font-size: 1.5rem;
 	margin: 1.5rem 0;
+	font-weight: bold;
+}
+main > .contact {
+	font-size: 1.5rem;
 	font-weight: 100;
 }
 
 .icons-social i {
 	padding: 10px;
+	margin: 1rem 0 0 0;
 }
 
 .devto {
-	margin-bottom: -0.20rem;
+	margin-bottom: -0.2rem;
 }
 
 .devto svg {
-	margin-bottom: -0.20rem;
-	margin-left: 0.675rem;;
+	margin-bottom: -0.2rem;
+	margin-left: 0.675rem;
 	width: 2.65rem;
 	height: 2.65rem;
 }
